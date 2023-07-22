@@ -1,4 +1,7 @@
-# Database-Driven-Web-and-Mobile-Application
+# DATABASE DRIVEN WEGB AND MOBILE APPLICATION
+
+![4-Things-to-Watch-Out](https://github.com/AWESOME04/Database-Driven-Web-and-Mobile-Application/assets/102630199/aee629cd-0248-4818-a186-5455f7ca9594)
+
 The project is a Database Driven Web and Mobile Application developed using Spring Boot, Postgresql React, and Flutter. It aims to provide a platform for managing student registrations, courses, exams, and other related functionalities.
 
 ## Problem Statement
@@ -28,15 +31,11 @@ The application is required to fulfill the following functional and non-function
    - Students can provide and update their personal details, including name, email, level, and department.
    - Faculty members can access student information related to their respective courses.
 
-3. Course Management:
-   - Faculty members can create and manage courses, including adding course details and syllabus.
-   - Students can view the list of available courses and enroll in the ones they desire.
-
-4. Academic Performance:
+3. Academic Performance:
    - Faculty members can record and update students' grades for assessments and assignments.
    - Students can view their academic performance and grades.
 
-5. Event Tracking:
+4. Event Tracking:
    - Users will receive notifications for upcoming events, such as exams, meetings, or academic deadlines.
 
 ### Non-functional Requirements:
@@ -93,9 +92,38 @@ The interaction between these components is facilitated through RESTful API endp
 
 The React front end is structured using components, where each component represents a specific part of the application. Redux is utilized for state management, ensuring a single source of truth for the application's data. Axios is used for API calls to interact with the backend.
 
+- **Student Registration**: 
+    New students can register by providing their name, email, password, and confirming the password.     
+    Validation is performed to ensure that all required fields are filled and that the password and confirm password match.
+    Upon successful registration, the student is redirected to the login page.
+
+![Student Registration Page](https://github.com/AWESOME04/SES-React-Project/assets/102630199/56df1153-f931-4fe5-9202-4f70cb048e01)
+
+- **Login**: 
+    Registered students can log in using their ID and PIN.
+    Authentication is performed to validate the entered ID and PIN.
+    If the login is successful, the student is directed to the Student Information Entry page.
+
+![Login Page](https://github.com/AWESOME04/SES-React-Project/assets/102630199/61c3dffd-b21c-492c-988b-8cdbfaa6d688)
+
+- **Student Information Entry**: 
+     After logging in, students can enter their name, email, password, level, and department.
+     Validation is performed to ensure that all required fields are filled.
+     Upon successful information entry, the student is directed to the Dashboard page.
+
+![Student Info Entry Page](https://github.com/AWESOME04/SES-React-Project/assets/102630199/da09d015-b5f8-4e83-b283-3a39688ef3b4)
+
+- **Dashboard**: 
+     Upon successful information entry, students are directed to a dashboard that displays a welcome message and their information.
+     The student's information, including name, email, level, and department, is displayed on the Dashboard.
+     
+![Dashboard](https://github.com/AWESOME04/SES-React-Project/assets/102630199/a1f39dd5-93ea-413e-98c3-d267e585c0b4)
+
 ### Backend/Web Service (Spring Boot)
 
 The Spring Boot backend serves as the web service, exposing RESTful API endpoints to communicate with the front end. It includes controllers to handle user registration, authentication, student information, course management, and event tracking. Data validation is implemented to ensure data integrity and security.
+
+
 
 ### Mobile App (Flutter)
 
