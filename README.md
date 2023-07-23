@@ -1,8 +1,10 @@
-# DATABASE DRIVEN WEGB AND MOBILE APPLICATION
+# DATABASE DRIVEN WEB AND MOBILE APPLICATION
 
 ![4-Things-to-Watch-Out](https://github.com/AWESOME04/Database-Driven-Web-and-Mobile-Application/assets/102630199/aee629cd-0248-4818-a186-5455f7ca9594)
 
 The project is a Database Driven Web and Mobile Application developed using Spring Boot, Postgresql React, and Flutter. It aims to provide a platform for managing student registrations, courses, exams, and other related functionalities.
+
+# [Live React Website](https://ses-react-project.vercel.app/)
 
 ## Problem Statement
 
@@ -129,6 +131,29 @@ The Spring Boot backend serves as the web service, exposing RESTful API endpoint
 
 The Flutter mobile app provides a native user experience and shares a codebase with the web application. It utilizes the Provider package for state management, allowing efficient data sharing across the app. API calls are made using the HTTP package to communicate with the backend.
 
+### User authentication
+        Users can log in to the app using their email and password.
+    
+![login](https://github.com/AWESOME04/SES-Mobile-Application/assets/102630199/752ae247-f01d-4130-8686-a1543c6f39da)
+
+### Student registration
+        New students can register by providing their name, email, and password.
+    
+![stud reg](https://github.com/AWESOME04/SES-Mobile-Application/assets/102630199/9a5599a0-641a-4294-8446-eb7964fb35fe)
+
+### Student information entry
+        Registered students can enter their personal and academic information.
+
+![stud info entry](https://github.com/AWESOME04/SES-Mobile-Application/assets/102630199/29916cc8-3ef5-4f5c-8942-f22bd158bf61)
+
+### Dashboard
+        The app provides a dashboard with the following features:
+        Carousel slider displaying images related to the field of study.
+        Upcoming events section displaying important events and their dates.
+        Navigation drawer for accessing different sections of the app, including home, profile, courses, grades, and schedule.
+        
+![dash](https://github.com/AWESOME04/SES-Mobile-Application/assets/102630199/86737f4f-3a6e-4ba3-9e71-65581ff7940c)
+
 ### Database (PostgreSQL)
 
 The PostgreSQL database stores and manages the application's data. It includes tables for user information, student details, course information, and grades. Foreign key constraints ensure data consistency and integrity.
@@ -147,34 +172,45 @@ Test cases are documented and automated testing frameworks are utilized to enhan
 
 The project is managed using Agile principles, with regular sprints, stand-ups, and retrospectives. Tasks are managed using project management tools like Jira or Trello. The project plan includes the following phases:
 
-1. Requirement Analysis: Gathering and documenting project requirements.
-2. Design and Planning: Creating software models, architecture, and project schedule.
-3. Implementation: Developing the application according to the design.
-4. Testing and Quality Assurance: Thoroughly testing the application for quality assurance.
-5. Deployment: Deploying the application to production and staging environments.
-6. Maintenance: Providing ongoing support and bug fixes.
+      1. Requirement Analysis: Gathering and documenting project requirements.
+      2. Design and Planning: Creating software models, architecture, and project schedule.
+      3. Implementation: Developing the application according to the design.
+      4. Testing and Quality Assurance: Thoroughly testing the application for quality assurance.
+      5. Deployment: Deploying the application to production and staging environments.
+      6. Maintenance: Providing ongoing support and bug fixes.
 
 ## Deployment
 
 To deploy the application:
 
-- Front End: The React application is hosted on a web server (e.g., Nginx, Apache) or cloud platform (e.g., Netlify, Vercel).
-- Backend/Web Service: The Spring Boot backend is deployed on a cloud platform (e.g., AWS, Heroku).
+- Front End: The React application can hosted on a cloud platform (e.g., Netlify, Vercel). See the [LIVE WEBSITE HERE](https://ses-react-project.vercel.app/)
+- Backend/Web Service: The Spring Boot backend can deployed on a cloud platform (e.g., AWS, Heroku).
 - Mobile App: The Flutter mobile app can be distributed through app stores (e.g., Google Play Store, Apple App Store).
 
 ## Conclusion
 
 This project successfully develops a comprehensive database-backed web and mobile application for an educational institution, addressing key problems related to student information management, course management, and event tracking. The implementation of React, Spring Boot, Flutter, and PostgreSQL ensures a seamless and user-friendly experience for students and faculty members.
 
-## Contributors
+## Contributors - GROUP 2
 
-- [Name 1] - Front End Developer
-- [Name 2] - Backend Developer
-- [Name 3] - Mobile App Developer
-- [Name 4] - Database Developer
-- [Name 5] - Project Manager
+    EVANS ACHEAMPONG
+    BENTIL B. REXFORD
+    MICHELLE OWUSU
+    MENSAH NYANYO HUBERT 
+    ANANE GEORGE NYARKO
+    DERY-KUUZUME SANDRA
+    APPIAH YAW FRIMPONG
+    
+## Contributing
+
+We welcome contributions to the Mobile System App project. If you would like to contribute, please follow these guidelines:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix.
+    Commit your changes and push them to your branch.
+    Submit a pull request detailing your changes.
 
 ## License
 
-This project is licensed under the [License Name]. [Include the license text and any third-party libraries' licenses.]
+This project is licensed under the [MIT License](LICENSE).
 
