@@ -181,8 +181,8 @@ The project is managed using Agile principles, with regular sprints, stand-ups, 
 
 To deploy the application:
 
-- Front End: The React application is hosted on a web server (e.g., Nginx, Apache) or cloud platform (e.g., Netlify, Vercel).
-- Backend/Web Service: The Spring Boot backend is deployed on a cloud platform (e.g., AWS, Heroku).
+- Front End: The React application can hosted on a web server (e.g., Nginx, Apache) or cloud platform (e.g., Netlify, Vercel).
+- Backend/Web Service: The Spring Boot backend can deployed on a cloud platform (e.g., AWS, Heroku).
 - Mobile App: The Flutter mobile app can be distributed through app stores (e.g., Google Play Store, Apple App Store).
 
 ## Conclusion
