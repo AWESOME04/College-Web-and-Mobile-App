@@ -189,7 +189,7 @@ To deploy the application:
 
 This project successfully develops a comprehensive database-backed web and mobile application for an educational institution, addressing key problems related to student information management, course management, and event tracking. The implementation of React, Spring Boot, Flutter, and PostgreSQL ensures a seamless and user-friendly experience for students and faculty members.
 
-## Contributors
+## Contributors - GROUP 2
 
     EVANS ACHEAMPONG
     BENTIL B. REXFORD
