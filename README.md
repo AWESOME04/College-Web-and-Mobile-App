@@ -4,6 +4,8 @@
 
 The project is a Database Driven Web and Mobile Application developed using Spring Boot, Postgresql React, and Flutter. It aims to provide a platform for managing student registrations, courses, exams, and other related functionalities.
 
+[Live React Website](https://ses-react-project.vercel.app/)
+
 ## Problem Statement
 
 This project aims to develop a comprehensive database-backed web and mobile application for an educational institution. The application will cater to both students and faculty members, providing them with a user-friendly interface to manage various aspects of their academic journey. The key problem this application seeks to address includes:
@@ -181,7 +183,7 @@ The project is managed using Agile principles, with regular sprints, stand-ups, 
 
 To deploy the application:
 
-- Front End: The React application can hosted on a web server (e.g., Nginx, Apache) or cloud platform (e.g., Netlify, Vercel).
+- Front End: The React application can hosted on a cloud platform (e.g., Netlify, Vercel). See the [LIVE WEBSITE HERE](https://ses-react-project.vercel.app/)
 - Backend/Web Service: The Spring Boot backend can deployed on a cloud platform (e.g., AWS, Heroku).
 - Mobile App: The Flutter mobile app can be distributed through app stores (e.g., Google Play Store, Apple App Store).
 
